@@ -70,9 +70,7 @@ export default class AddForm extends React.Component {
           <label for="touch">Upload Image:</label>
           <input type="file" id="img" name="img" accept="image/*" className="w-100" onChange={this.handleChangeImage}/>
         </div>
-        <div className='imagePreview'>
-          <img src={this.viewImageUpload} />
-        </div>
+       
         <div className='imagePreview'>
         <img src={this.state.img} alt="img" width="200px" height='100px'/>
         </div>
