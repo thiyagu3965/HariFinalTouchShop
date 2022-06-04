@@ -40,37 +40,37 @@ export default class AddForm extends React.Component {
         
         <div class="form-group" >
           <label for="formno">Form No:</label>
-          <input type="number" class="form-control" value={this.state.formno} onChange={(e) => this.setState({formno : e.target.value} )}/>
+          <input type="number" class="form-control" value={this.state.formno} onChange={(e) => this.setState({formno : e.target.value} )} required/>
         </div>
 
         <div class="form-group" >
           <label for="Name">Name:</label>
-          <input type="text" class="form-control" value={this.state.Name} onChange={(e) => this.setState({Name : e.target.value} )}/>
+          <input type="text" class="form-control" value={this.state.Name} onChange={(e) => this.setState({Name : e.target.value} )} required/>
         </div>
 
         <div class="form-group" >
           <label for="NickName">NickName:</label>
-          <input type="text" class="form-control" value={this.state.NickName} onChange={(e) => this.setState({NickName : e.target.value} )}/>
+          <input type="text" class="form-control" value={this.state.NickName} onChange={(e) => this.setState({NickName : e.target.value} )} required/>
         </div>
 
         <div class="form-group" >
           <label for="Bracket">Bracket:</label>
-          <input type="text" class="form-control" value={this.state.Bracket} onChange={(e) => this.setState({Bracket : e.target.value} )}/>
+          <input type="text" class="form-control" value={this.state.Bracket} onChange={(e) => this.setState({Bracket : e.target.value} )} required/>
         </div>
 
         <div class="form-group" >
           <label for="Material">Material:</label>
-          <input type="text" class="form-control" value={this.state.Material} onChange={(e) => this.setState({Material : e.target.value} )}/>
+          <input type="text" class="form-control" value={this.state.Material} onChange={(e) => this.setState({Material : e.target.value} )} required/>
         </div>
 
         <div class="form-group" >
           <label for="Mark">Mark:</label>
-          <input type="text" class="form-control" value={this.state.Mark} onChange={(e) => this.setState({Mark : e.target.value} )}/>
+          <input type="text" class="form-control" value={this.state.Mark} onChange={(e) => this.setState({Mark : e.target.value} )} required/>
         </div>
 
         <div class="form-group" >
           <label for="number">Touch:</label>
-          <input type="text" class="form-control" value={this.state.touch} onChange={(e) => this.setState({touch : e.target.value} )}/>
+          <input type="text" class="form-control" value={this.state.touch} onChange={(e) => this.setState({touch : e.target.value} )} required/>
         </div>
 
         <div class="form-group" >
@@ -84,7 +84,7 @@ export default class AddForm extends React.Component {
        
         <div class="form-group" >
           <label for="date">Date</label>
-          <input type="date" onChange={(e) => this.setState({date : e.target.value} )} />
+          <input type="date" onChange={(e) => this.setState({date : e.target.value} )}  required/>
         </div>
         {/* <div class="checkbox">
           <label><input type="checkbox" /> Remember me</label>
