@@ -70,7 +70,7 @@ export default class AddForm extends React.Component {
 
         <div class="form-group" >
           <label for="number">Touch:</label>
-          <input type="text" class="form-control" value={this.state.touch} onChange={(e) => this.setState({touch : e.target.value} )} required/>
+          <input type="number" class="form-control" value={this.state.touch} onChange={(e) => this.setState({touch : e.target.value} )} required/>
         </div>
 
         <div class="form-group" >
