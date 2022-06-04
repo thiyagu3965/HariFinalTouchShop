@@ -10,11 +10,18 @@ export default class AddForm extends React.Component {
     Mark: "",
     touch: "",
     file: "",
-    img: ""
-  };
+    date:"",
+    img: "noImg"
+  }; 
+
+  
    
        handleChangeImage = e => {
-         this.setState({[e.target.name]: URL.createObjectURL(e.target.files[0])})
+         if(!e.target.files[0]){
+
+         }
+         const url = URL.createObjectURL(e.target.files[0])
+         this.setState({[e.target.name]: url})
       }
 
 
@@ -28,12 +35,12 @@ export default class AddForm extends React.Component {
     return (
       
     <div class="container">
-      <h2>Adding Val</h2>
+      <h2>Sri HariHaran Refinery</h2>
       <form onSubmit={this.add}>
         
         <div class="form-group" >
           <label for="formno">Form No:</label>
-          <input type="text" class="form-control" value={this.state.formno} onChange={(e) => this.setState({formno : e.target.value} )}/>
+          <input type="number" class="form-control" value={this.state.formno} onChange={(e) => this.setState({formno : e.target.value} )}/>
         </div>
 
         <div class="form-group" >
@@ -41,10 +48,10 @@ export default class AddForm extends React.Component {
           <input type="text" class="form-control" value={this.state.Name} onChange={(e) => this.setState({Name : e.target.value} )}/>
         </div>
 
-        <div class="form-group" >
-          <label for="NickName">NickName:</label>
-          <input type="text" class="form-control" value={this.state.NickName} onChange={(e) => this.setState({NickName : e.target.value} )}/>
-        </div>
+//         <div class="form-group" >
+//           <label for="NickName">NickName:</label>
+//           <input type="text" class="form-control" value={this.state.NickName} onChange={(e) => this.setState({NickName : e.target.value} )}/>
+//         </div>
 
         <div class="form-group" >
           <label for="Bracket">Bracket:</label>
@@ -62,7 +69,7 @@ export default class AddForm extends React.Component {
         </div>
 
         <div class="form-group" >
-          <label for="touch">Touch:</label>
+          <label for="number">Touch:</label>
           <input type="text" class="form-control" value={this.state.touch} onChange={(e) => this.setState({touch : e.target.value} )}/>
         </div>
 
@@ -72,9 +79,13 @@ export default class AddForm extends React.Component {
         </div>
        
         <div className='imagePreview'>
-        <img src={this.state.img} alt="img" width="200px" height='100px'/>
+            <img src={this.state.img} alt="image preview" width="200px" height='100px'/>
         </div>
        
+        <div class="form-group" >
+          <label for="date">Date</label>
+          <input type="date" onChange={(e) => this.setState({date : e.target.value} )} />
+        </div>
         {/* <div class="checkbox">
           <label><input type="checkbox" /> Remember me</label>
         </div> */}
