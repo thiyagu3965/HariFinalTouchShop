@@ -42,7 +42,7 @@ setTimeout(() => {
  <p className="thirdDigitTouch">{form.touch[3] == '0' ? "zero " : inWords(form.touch[3]) } </p>
  <p className="fourthDigitTouch">{form.touch[4] == '0' ? "zero " : inWords(form.touch[4]) } </p></> : <><img className='formImg' src={form.img}/><p className='Fname'>{form.Name}</p>
  <p className='fno'>{form.formno}</p>
-  <p className='Fmaterial'>{form.Material}</p> <p className='Fdate'>{form.date.split("-").reverse().join("-")}</p>
+  <p className='Fdate'>{form.date.split("-").reverse().join("-")}</p>
  <p className='Fmark'>{form.Mark}</p>
  <p className='FtouchNumberSet1'>{form.touch.slice(0, 2)}</p>
  <p className='FtouchNumberSet2'>{form.touch.slice(3)}</p> <p className="firstDigitTouch">{form.touch[0] == '0'  ? "zero " : inWords(form.touch[0])  } </p>
