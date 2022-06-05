@@ -55,7 +55,7 @@ export default class AddForm extends React.Component {
 
         <div class="form-group" >
           <label for="Material">Material:</label>
-          <input type="text" class="form-control" value={this.state.Material} onChange={(e) => this.setState({Material : e.target.value} )} required/>
+          <input type="text" class="form-control" value={this.state.Material} onChange={(e) => this.setState({Material : e.target.value} )} />
         </div>
 
         <div class="form-group" >
