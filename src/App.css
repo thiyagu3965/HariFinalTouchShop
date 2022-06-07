@@ -13,6 +13,18 @@
     top: 200px;
     left: 80px;
     font-weight : bold;
+    font-family: Arial-regular !important ;
+}
+.FBracket{
+
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    top: 200px;
+    left: 200px;
+    font-size: 10px;
+    font-weight : bold;
+    font-family: Arial-regular !important ;
 }
 .Fmaterial{
     position: absolute;
@@ -28,62 +40,80 @@
 }
 .Fname{
     position: absolute;
-    top:175px;
-    left: 100px;
+    top:170px;
+    left: 90px;
     font-weight : bold;
+    font-size: 20px;
+    font-family: Arial-regular !important ;
 }
 .Fdate{
     position: absolute;
     top:325px;
     left: 80px;
     font-weight : bold;
+    font-family: Arial-regular !important ;
 }
 .fno{
     position: absolute;
-    top:125px;
-    left: 650px;
+    top:122px;
+    left: 610px;
     font-weight : bold;
+    font-size: 30px;
+    font-family: Arial-regular !important ;
 }
 .Fmark{
     position: absolute;
     top:220px;
     left: 495px;
     font-weight : bold;
+    font-family: Arial-regular !important ;
 }
 .FtouchNumberSet1{
     position: absolute;
     top:365px;
     left: 280px;
     font-weight : bold;
+    font-size: 30px;
+    font-family: Arial-regular !important ;
 }
 .FtouchNumberSet2{
     position: absolute;
     top:365px;
     left: 400px;
     font-weight : bold;
+    font-size: 30px;
+    font-family: Arial-regular !important ;
 }
 .firstDigitTouch{
     position: absolute;
-    top:365px;
-    left: 80px;
+    top:360px;
+    left: 55px;
     font-weight : bold;
+    font-size: 35px;
+    font-family: Arial-regular !important ;
 }
 .secondDigitTouch{
     position: absolute;
-    top:365px;
-    left: 180px;
+    top:360px;
+    left: 163px;
     font-weight : bold;
+    font-size: 35px;
+    font-family: Arial-regular !important ;
 }
 .thirdDigitTouch{
 
     position: absolute;
-    top:365px;
-    left: 480px;
+    top:360px;
+    left: 500px;
     font-weight : bold;
+    font-size: 35px;
+    font-family: Arial-regular !important ;
 }
 .fourthDigitTouch{
     position: absolute;
-    top:365px;
-    left: 650px;
+    top:360px;
+    left: 620px;
     font-weight : bold;
+    font-size: 35px;
+    font-family: Arial-regular !important ;
 }
