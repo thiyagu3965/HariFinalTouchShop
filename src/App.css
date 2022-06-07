@@ -30,7 +30,7 @@
     position: absolute;
     top:225px;
     left: 80px;
-
+    font-size: 29px;
     /* Auto Warp Content */
     width: 35% !important;
     word-wrap: break-word;
@@ -91,6 +91,7 @@
     font-weight : bold;
     font-size: 35px;
     font-family: Arial-regular !important ;
+    
 }
 .secondDigitTouch{
     position: absolute;
@@ -104,7 +105,7 @@
 
     position: absolute;
     top:360px;
-    left: 485px;
+    left: 495px;
     font-weight : bold;
     font-size: 35px;
     font-family: Arial-regular !important ;
@@ -112,7 +113,7 @@
 .fourthDigitTouch{
     position: absolute;
     top:360px;
-    left: 620px;
+    left: 600px;
     font-weight : bold;
     font-size: 35px;
     font-family: Arial-regular !important ;
