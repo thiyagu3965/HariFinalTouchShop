@@ -65,7 +65,7 @@ setTimeout(() => {
     <>
 
     {formRenderer}
-    <img className="bgImg" src="https://i.ibb.co/GJKMRYj/Hari.jpg" /> 
+    <img className="bgImg" src="https://i.ibb.co/jR501wQ/Hari.jpg" /> 
     {/* <img className='bgImg' src={printBackgroundImg} />  */}
     </>
   )
