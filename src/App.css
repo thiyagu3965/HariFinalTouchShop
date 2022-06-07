@@ -91,7 +91,7 @@
     font-weight : bold;
     font-size: 35px;
     font-family: Arial-regular !important ;
-    
+    color:  #ff3300 !important;
 }
 .secondDigitTouch{
     position: absolute;
@@ -100,6 +100,7 @@
     font-weight : bold;
     font-size: 35px;
     font-family: Arial-regular !important ;
+    color:  #ff3300 !important;
 }
 .thirdDigitTouch{
 
@@ -109,6 +110,7 @@
     font-weight : bold;
     font-size: 35px;
     font-family: Arial-regular !important ;
+    color:  #ff3300 !important;
 }
 .fourthDigitTouch{
     position: absolute;
@@ -117,4 +119,5 @@
     font-weight : bold;
     font-size: 35px;
     font-family: Arial-regular !important ;
+    color:  #ff3300 !important;
 }
