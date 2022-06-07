@@ -20,7 +20,7 @@
     position: absolute;
     width: 150px;
     height: 120px;
-    top: 200px;
+    top: 210px;
     left: 200px;
     font-size: 10px;
     font-weight : bold;
@@ -28,8 +28,8 @@
 }
 .Fmaterial{
     position: absolute;
-    top:215px;
-    left: 50px;
+    top:225px;
+    left: 80px;
 
     /* Auto Warp Content */
     width: 35% !important;
@@ -40,7 +40,7 @@
 }
 .Fname{
     position: absolute;
-    top:170px;
+    top:178px;
     left: 90px;
     font-weight : bold;
     font-size: 20px;
@@ -48,14 +48,14 @@
 }
 .Fdate{
     position: absolute;
-    top:325px;
-    left: 80px;
+    top:330px;
+    left: 100px;
     font-weight : bold;
     font-family: Arial-regular !important ;
 }
 .fno{
     position: absolute;
-    top:122px;
+    top:132px;
     left: 610px;
     font-weight : bold;
     font-size: 30px;
@@ -63,8 +63,8 @@
 }
 .Fmark{
     position: absolute;
-    top:220px;
-    left: 495px;
+    top:233px;
+    left: 490px;
     font-weight : bold;
     font-family: Arial-regular !important ;
 }
@@ -104,7 +104,7 @@
 
     position: absolute;
     top:360px;
-    left: 500px;
+    left: 485px;
     font-weight : bold;
     font-size: 35px;
     font-family: Arial-regular !important ;
