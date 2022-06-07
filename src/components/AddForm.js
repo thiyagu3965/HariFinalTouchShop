@@ -50,17 +50,17 @@ export default class AddForm extends React.Component {
 
         <div class="form-group" >
           <label for="Bracket">Bracket:</label>
-          <input type="text" class="form-control" value={this.state.Bracket} onChange={(e) => this.setState({Bracket : e.target.value} )} />
+          <input type="text" class="form-control" value={this.state.Bracket} onChange={(e) => this.setState({Bracket : e.target.value} )} required/>
         </div>
 
         <div class="form-group" >
           <label for="Material">Material:</label>
-          <input type="text" class="form-control" value={this.state.Material} onChange={(e) => this.setState({Material : e.target.value} )} />
+          <input type="text" class="form-control" value={this.state.Material} onChange={(e) => this.setState({Material : e.target.value} )} required/>
         </div>
 
         <div class="form-group" >
           <label for="Mark">Mark:</label>
-          <input type="text" class="form-control" value={this.state.Mark} onChange={(e) => this.setState({Mark : e.target.value} )} />
+          <input type="text" class="form-control" value={this.state.Mark} onChange={(e) => this.setState({Mark : e.target.value} )} required/>
         </div>
 
         <div class="form-group" >
