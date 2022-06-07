@@ -24,7 +24,7 @@ function inWords (num) {
  const formRenderer = props.forms.map((form) => {
 setTimeout(() => {
   window.print();
-}, 5000);
+}, 7500);
     console.log(form);
 
     return (
