@@ -36,7 +36,7 @@ setTimeout(() => {
  <p className='fno'>{form.formno}</p>
   <p className='Fmaterial'>{form.Material}</p> <p className='Fdate'>{form.date.split("-").reverse().join("-")}</p>
  <p className='Fmark'>{form.Mark}</p>
- <p className='FBracket'>{form.Bracket == "" ? " empty " : "( " + form.Bracket + " )"}</p>
+ <p className='FBracket'>{form.Bracket == "" ? "" : "( " + form.Bracket + " )"}</p>
  <p className='FtouchNumberSet1'>{form.touch.slice(0, 2)}</p>
  <p className='FtouchNumberSet2'>{form.touch.slice(3)}</p> <p className="firstDigitTouch">{form.touch[0] == '0'  ? "zero " : inWords(form.touch[0])  } </p>
  <p className="secondDigitTouch">{form.touch[1] == '0' ? "zero " : inWords(form.touch[1]) } </p>
