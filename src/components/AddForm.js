@@ -73,8 +73,8 @@ export default class AddForm extends React.Component {
           <input type="file" id="img" name="img" accept="image/*" className="w-100" onChange={this.handleChangeImage}/>
         </div>
        
-        <div className='imagePreview'>
-            <img src={this.state.img} alt="image preview" width="150px" height='120px'/>
+        <div >
+            <img className='imagePreview' src={this.state.img} alt="image preview" width="150px" height='120px'/>
         </div>
        
         <div class="form-group" >

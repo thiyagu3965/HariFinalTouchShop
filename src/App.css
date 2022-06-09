@@ -6,9 +6,13 @@
     z-index: -1;
 
 }
+.imagePreview{
+    width: 178px;
+    height: 120px;
+}
 .formImg{
     position: absolute;
-    width: 150px;
+    width: 178px;
     height: 120px;
     top: 210px;
     left: 80px;
@@ -70,24 +74,24 @@
 }
 .FtouchNumberSet1{
     position: absolute;
-    top:365px;
+    top:360px;
     left: 280px;
-    font-weight : bold;
-    font-size: 30px;
+    font-weight : bolder;
+    font-size: 40px;
     font-family: Arial-regular !important ;
 }
 .FtouchNumberSet2{
     position: absolute;
-    top:365px;
+    top:360px;
     left: 400px;
-    font-weight : bold;
-    font-size: 30px;
+    font-weight : bolder;
+    font-size: 40px;
     font-family: Arial-regular !important ;
 }
 .firstDigitTouch{
     position: absolute;
     top:360px;
-    left: 55px;
+    left: 50px;
     font-weight : bold;
     font-size: 35px;
     font-family: Arial-regular !important ;
@@ -96,7 +100,7 @@
 .secondDigitTouch{
     position: absolute;
     top:360px;
-    left: 163px;
+    left: 160px;
     font-weight : bold;
     font-size: 35px;
     font-family: Arial-regular !important ;
@@ -106,7 +110,7 @@
 
     position: absolute;
     top:360px;
-    left: 495px;
+    left: 490px;
     font-weight : bold;
     font-size: 35px;
     font-family: Arial-regular !important ;
@@ -115,7 +119,7 @@
 .fourthDigitTouch{
     position: absolute;
     top:360px;
-    left: 600px;
+    left: 595px;
     font-weight : bold;
     font-size: 35px;
     font-family: Arial-regular !important ;
